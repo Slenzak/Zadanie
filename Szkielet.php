@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skorupa</title>
+    <link rel="stylesheet" href="Styl.css">
+</head>
+<body>
+    <div id="header"><img src="baner.gif"></div>
+    <div id="left">
+        <nav class="navbar">
+            <ul class="navbar-nav">
+              <li class="logo">
+                <a href="#" class="nav-link">
+                  <span class="link-text logo-text">Borowinka</span>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="angle-double-right"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+                  >
+                    <g class="fa-group">
+                      <path
+                        fill="currentColor"
+                        d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                        class="fa-secondary"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                        class="fa-primary"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+        
+              <li class="nav-item">
+                <a href="redirect.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="Home"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 565 565"
+                    class="svg-inline--fa fa-cat fa-w-16 fa-9x"
+                  >
+                  <g class="fa-group">
+                  <path 
+                  fill="currentColor"
+                  d="m589.4 249.73-227.5-210c-3.2344-3.0039-7.4844-4.6719-11.898-4.6719s-8.6641 1.668-11.898 4.6719l-227.5 210c-3.4336 3.2109-5.4297 7.668-5.5352 12.371-0.10938 4.6992 1.6758 9.2422 4.957 12.613 3.2773 3.3672 7.7773 5.2734 12.477 5.2891h52.5v227.5c0 4.6406 1.8438 9.0938 5.125 12.375s7.7344 5.125 12.375 5.125h105c4.6406 0 9.0938-1.8438 12.375-5.125s5.125-7.7344 5.125-12.375v-105h70v105c0 4.6406 1.8438 9.0938 5.125 12.375s7.7344 5.125 12.375 5.125h105c4.6406 0 9.0938-1.8438 12.375-5.125s5.125-7.7344 5.125-12.375v-227.5h52.5c4.6992-0.015625 9.1992-1.9219 12.477-5.2891 3.2812-3.3711 5.0664-7.9141 4.957-12.613-0.10547-4.7031-2.1016-9.1602-5.5352-12.371zm-99.398 240.27h-70v-105c0-4.6406-1.8438-9.0938-5.125-12.375s-7.7344-5.125-12.375-5.125h-105c-4.6406 0-9.0938 1.8438-12.375 5.125s-5.125 7.7344-5.125 12.375v105h-70v-210h280zm17.5-245h-340.2l182.7-168.7 182.7 168.7z"
+                  class="fa-primary"
+                  >
+                  
+                  </path>
+                  </g>
+                  </svg>
+                  <span class="link-text">STRONA GŁÓWNA</span>
+                </a>
+              </li>
+        
+              <li class="nav-item">
+                <a href="redirect1.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="Guest-book"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x"
+                  >
+                  <g class="fa-group">
+                    
+                    <path
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m594.05 435.98-206.63-22.094c26.965-21.699 60.238-33.477 95.297-33.434 40.602 0.050781 78.773 15.926 107.49 44.715 1.3203 1.3203 3.0586 1.9883 4.7891 1.9883 1.7344 0 3.4648-0.65625 4.793-1.9766 2.6484-2.6445 2.6562-6.9336 0.011719-9.582-31.27-31.348-72.852-48.641-117.07-48.691-44.219-0.054688-85.836 17.141-117.19 48.41-0.011719 0.011719-0.023438 0.027344-0.035157 0.039062-0.29688 0.30078-0.57031 0.63281-0.8125 0.99219-0.11719 0.17188-0.19531 0.36328-0.29688 0.54688-0.11328 0.20703-0.23438 0.40234-0.32422 0.62109-0.09375 0.23047-0.15234 0.46875-0.21875 0.70703-0.054688 0.18359-0.12891 0.36328-0.16797 0.55469-0.089844 0.4375-0.13281 0.88672-0.13281 1.3281l-0.011718 9.1719c-3.8633 3.0352-8.5859 4.6914-13.562 4.6875-4.9766-0.003907-9.6992-1.6758-13.551-4.7227l0.011719-9.1719c0-0.44922-0.042969-0.89062-0.13281-1.332-0.039062-0.19531-0.11328-0.375-0.16797-0.55859-0.066406-0.23438-0.125-0.47656-0.21875-0.70703-0.089844-0.21875-0.21094-0.41406-0.32422-0.62109-0.10156-0.18359-0.17969-0.37109-0.29688-0.54297-0.23438-0.35938-0.50781-0.6875-0.80469-0.99219-0.011718-0.011719-0.023437-0.027344-0.035156-0.039062-31.27-31.348-72.852-48.641-117.07-48.691-44.219-0.054687-85.836 17.141-117.19 48.41-2.6484 2.6445-2.6562 6.9336-0.011719 9.582 2.6445 2.6484 6.9336 2.6562 9.582 0.011719 28.785-28.719 67-44.504 107.6-44.453 35.062 0.042969 68.305 11.898 95.219 33.668l-206.69 21.582c-3.7969 0.39844-6.5586 3.7969-6.1602 7.5938 0.37109 3.5508 3.3711 6.1953 6.8594 6.1992 0.24219 0 216.27-22.551 216.27-22.551l-0.003906 5.6445c0 0.44922 0.042969 0.89062 0.13281 1.3281 0.039063 0.19531 0.11328 0.375 0.16797 0.56641 0.066407 0.23438 0.125 0.46875 0.21875 0.69922 0.09375 0.22266 0.21875 0.42578 0.33594 0.63672 0.09375 0.17188 0.17188 0.35938 0.28516 0.52734 0.24609 0.375 0.53125 0.72266 0.84375 1.0352 6.707 6.7188 15.625 10.426 25.109 10.438 9.4883 0.011719 18.418-3.6797 25.137-10.383 0.011719-0.011719 0.023437-0.027344 0.035156-0.039063 0.29688-0.30078 0.57031-0.63281 0.8125-0.99219 0.11719-0.17188 0.19531-0.36328 0.29688-0.54688 0.11328-0.20703 0.23438-0.40234 0.32422-0.61719 0.09375-0.23047 0.15234-0.46875 0.22266-0.71094 0.054687-0.18359 0.12891-0.36328 0.16406-0.55469 0.089843-0.4375 0.13281-0.88672 0.13281-1.332l0.003906-5.6445s215.97 23.078 216.21 23.078c3.4961 0.003907 6.4961-2.6328 6.875-6.1836 0.41406-3.7852-2.3359-7.1953-6.1328-7.5977z"/>
+                    <path
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m323.43 314.56-43.586 25.066c-1.4844 0.85156-3.1211 1.2656-4.7422 1.2656-2.4648 0-4.8984-0.95312-6.7305-2.7891-3.0391-3.0391-3.6641-7.7461-1.5195-11.473l25.066-43.586c0.55859-2.2695 1.6953-4.2852 3.3477-5.9414l30.238-30.238c-3.6016-1.1719-7.3125-2.0391-11.133-2.5312-2.6602-0.33984-5.3633-0.51953-8.0234-0.51953-13.766 0-26.84 4.4805-37.828 12.965-0.40234 0.30469-146.3 117.52-146.3 117.52-2.5664 2.0547-2.9727 5.7969-0.91797 8.3594 1.1758 1.4688 2.9023 2.2305 4.6406 2.2305 1.3047 0 2.6211-0.42578 3.7188-1.3086l3.4375-2.7617c32.047-23.727 71.289-34.016 110.91-28.914 40.27 5.1797 76.16 25.633 101.22 57.59l0.007813-114.14-15.855 15.855c-1.6562 1.6562-3.6797 2.793-5.9453 3.3516z"/>
+                    <path
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m489.18 117.3c-2.8516-2.8516-6.5859-4.2773-10.328-4.2773-3.7422 0-7.4688 1.4297-10.32 4.2773l-2.3086 2.3086-9.375-9.375-49.172 49.172c-1.5 1.5-1.5 3.9297 0 5.4336 0.75 0.75 1.7344 1.125 2.7148 1.125 0.98438 0 1.9648-0.375 2.7148-1.125l43.742-43.742 3.9375 3.9414-158.79 158.79c-0.64453 0.64453-0.94141 1.4883-0.96875 2.457l-25.93 45.086 45.086-25.93c0.96875-0.027344 1.8125-0.32422 2.457-0.96875l166.54-166.54c5.7031-5.6953 5.7031-14.934 0.003906-20.637z"/>
+                    <path 
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m579.14 374.3s-145.58-117-146-117.32c-10.629-8.25-23.238-12.695-36.535-12.992l-41.855 41.855v124.07c25.156-32.137 61.23-52.645 101.69-57.754 40.68-5.1367 80.949 5.8984 113.39 31.07 0.92578 0.71875 2.0156 1.0625 3.1016 1.0859 0.79687 0.37109 1.6367 0.56641 2.4805 0.56641 1.7422 0 3.4727-0.76172 4.6406-2.2305 2.0625-2.5547 1.6484-6.3008-0.91406-8.3516z"/>
+  
+                  </g>
+                  </svg>
+                  <span class="link-text">KSIĘGA GOŚCI</span>
+                </a>
+              </li>
+        
+              <li class="nav-item">
+                <a href="redirect2.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="Reservation"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 620 620"
+                    class="svg-inline--fa fa-space-station-moon-alt fa-w-16 fa-5x"
+                  >
+                  <g class="fa-group">
+                    
+                    <path
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m490.79 257.88h-237.44c-6 0-11.547 3.2031-14.551 8.4023-3 5.1953-3 11.602 0 16.797 3.0039 5.1992 8.5508 8.4023 14.551 8.4023h237.44c6 0 11.547-3.2031 14.547-8.4023 3.0039-5.1953 3.0039-11.602 0-16.797-3-5.1992-8.5469-8.4023-14.547-8.4023z"/>
+                    
+                    <path
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m609.84 386.4-39.199-244.5c-0.63281-3.9844-2.6797-7.6094-5.7617-10.211-3.0859-2.6016-7.0039-4.0039-11.039-3.957h-407.85c-4.043-0.14062-8.0039 1.1758-11.152 3.7188-3.1445 2.5391-5.2734 6.1328-5.9844 10.113l-38.582 223.39c-1.9688 11.395 1.1992 23.078 8.6484 31.918 7.4531 8.8438 18.426 13.949 29.988 13.945h45.363c3.3008 6.375 8.2891 11.719 14.422 15.453 6.1328 3.7305 13.172 5.707 20.352 5.7148h362.1c11.516 0.003906 22.449-5.0547 29.902-13.832s10.668-20.391 8.793-31.754zm-485.24-11.199c-1.0586-1.2578-1.5078-2.9141-1.2344-4.5352l22.121-127.57 21.391 134.4h-38.023c-1.6914-0.082032-3.2578-0.92578-4.2539-2.2969zm450.8 21.223-0.003906 0.003906c-1.0625 1.2422-2.6172 1.957-4.2539 1.957h-362.1c-2.7734 0.035157-5.1562-1.9648-5.5977-4.7031l-36.961-232.12h373.41l36.738 230.44c0.23828 1.582-0.20703 3.1914-1.2344 4.4258z"/>
+
+                    
+              
+                    </g>
+                  </svg>
+                  <span class="link-text">REZERWACJA</span>
+                </a>
+              </li>
+        
+              <li class="nav-item">
+                <a href="redirect3.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="space-shuttle"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                    class="svg-inline--fa fa-space-shuttle fa-w-20 fa-5x"
+                  >
+                  <g class="fa-group">
+                    <path 
+                    fill="currentColor"
+                    class="fa-primary"
+                    d="m505.96 72.055h-311.92c-28.664 0-51.988 23.32-51.988 51.988v311.91c0 28.664 23.32 51.988 51.988 51.988h311.91c28.664 0 51.988-23.32 51.988-51.988v-311.92c0.003906-28.664-23.316-51.984-51.98-51.984zm17.328 313.41-92.461-92.461 18.074-18.074c10.535-10.527 16.949-10.527 27.484 0l46.91 46.91v63.625zm-329.25-278.75h311.91c9.5586 0 17.328 7.7734 17.328 17.328v148.79l-22.406-22.406c-23.941-23.957-52.547-23.957-76.488 0l-18.074 18.074-78.719-78.719c-23.941-23.957-52.547-23.957-76.488 0l-74.395 74.387v-140.12c0-9.5547 7.7734-17.328 17.328-17.328zm311.92 346.58h-311.92c-9.5586 0-17.328-7.7734-17.328-17.328v-122.79l98.895-98.895c10.535-10.527 16.949-10.527 27.484 0l220.2 220.19v1.4883c0 9.5625-7.7734 17.336-17.328 17.336z"/>
+  
+                    </g>
+                  </svg>
+                  <span class="link-text">GALERIA</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="redirect4.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="Contact"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                    class="svg-inline--fa fa-space-shuttle fa-w-20 fa-5x"
+                  >
+                  <g class="fa-group">
+                    <path 
+                    fill="currentColor"
+                    d="m527.9 153.96h-355.8c-7.043 0-12.762 5.7188-12.762 12.762v226.52c0 7.0664 5.7188 12.809 12.762 12.809h355.8c7.043 0 12.762-5.7383 12.762-12.809v-226.52c0.007812-7.0469-5.7148-12.762-12.754-12.762zm-27.816 22.078-150.11 135.93-150.11-135.93zm-315.23 19.746 89.348 84.203-89.348 84.227zm15.016 187.05 94.359-85.438 55.234 51.605 57.18-51.605 93.441 85.438zm316.83-18.621-89.348-84.223 89.348-84.203z" fill-rule="evenodd"
+                    class="fa-primary"
+                    >
+                    
+                    </path>
+                    </g>
+                  </svg>
+                  <span class="link-text">KONTAKT</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="redirect5.php" class="nav-link">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="Help"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                    class="svg-inline--fa fa-space-shuttle fa-w-20 fa-5x"
+                  >
+                  <g class="fa-group">
+                  <path 
+                  fill="currentColor"
+                  class="fa-primary"
+                  d="m253.5 223.1-50.48-50.477c-46.691 63.746-46.691 151.01 0 214.76l50.48-50.48c-20.668-34.992-20.668-78.812 0-113.8zm153.4 153.4c-34.992 20.668-78.812 20.668-113.8 0l-50.477 50.48c63.746 46.695 151.01 46.695 214.76 0zm-113.8-193c34.992-20.664 78.812-20.664 113.8 0l50.48-50.477c-63.75-46.695-151.02-46.695-214.76 0zm153.4 153.4 50.48 50.48c46.691-63.75 46.691-151.02 0-214.76l-50.48 50.477c20.668 34.992 20.668 78.812 0 113.8zm-244.99 91.59c-82.012-82.008-82.012-214.97 0-296.98 82.012-82.008 214.97-82.008 296.98 0 82.012 82.012 82.012 214.98 0 296.98-82.012 82.012-214.97 82.012-296.98 0zm89.094-89.094c32.805 32.805 85.992 32.805 118.8 0 32.801-32.805 32.801-85.992 0-118.79-32.805-32.805-85.992-32.805-118.8 0-32.801 32.801-32.801 85.988 0 118.79z" fill-rule="evenodd"/>
+
+                    
+                    </path>
+                    </g>
+                  </svg>
+                  <span class="link-text">POMOC</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="redirect6.php" class="nav-link">
+                  
+                  <span class="link-text">O NAS</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        
+    </div>
+    <div class="divcointener">
+      <div id="middle">lolek
+      </div>
+      <div class="right">
+        <div class="container">
+            <div class="calendar-assets">
+                <div class="day-assets">
+                    <button class="btn" onclick="prevDay()" title="Dia anterior"><i class="fas fa-chevron-left"></i>Poprzedni dzien</button>
+                    <button class="btn" onclick="resetDate()" title="Dia atual"><i class="fas fa-calendar-day"></i> Dzisiaj</button>
+                    <button class="btn" onclick="nextDay()" title="Próximo dia"><i class="fas fa-chevron-right"></i>Nastepny dzien</button>
+                </div>
+            </div>
+            <div class="calendar" id="table">
+                <div class="header">
+                    <div class="month" id="month-header">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cointainer3">
+          
+        </div>
+        <div class="cointainer2">
+            <a class="weatherwidget-io" href="https://forecast7.com/pl/50d8119d12/czestochowa/" data-label_1="CZĘSTOCHOWA" data-label_2="Pogoda" data-theme="original" >CZĘSTOCHOWA Pogoda</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>
+      </div>
+    </div>
+      <script src="Skrypt.js"></script>
+    <div id="footer"></div>
+</body>
+</html>
+
+<!--Legal main page by Basicon from <a href="https://thenounproject.com/browse/icons/term/main-page/" target="_blank" title="main page Icons">Noun Project</a>
+Guest Book by Inn Style from <a href="https://thenounproject.com/browse/icons/term/guest-book/" target="_blank" title="Guest Book Icons">Noun Project</a>
+reservation by Ahock from <a href="https://thenounproject.com/browse/icons/term/reservation/" target="_blank" title="reservation Icons">Noun Project</a>
+gallery by putra pratama from <a href="https://thenounproject.com/browse/icons/term/gallery/" target="_blank" title="gallery Icons">Noun Project</a>
+contact by lipi from <a href="https://thenounproject.com/browse/icons/term/contact/" target="_blank" title="contact Icons">Noun Project</a>
+help by Keller from <a href="https://thenounproject.com/browse/icons/term/help/" target="_blank" title="help Icons">Noun Project</a>
+
+-->
