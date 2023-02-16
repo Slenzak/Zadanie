@@ -722,3 +722,26 @@ img{
   cursor: pointer;
 }
 
+#bres{
+  color: #ffffff;
+  background-color: red;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+}
+
+#bsub{
+  color: #ffffff;
+  background-color: green;
+  margin: 40px;
+  width: 100px;
+  height: 50px;
+}
+
+#bsub,#bres{
+  border: none;
+}
+
+.contact{
+  font-size: 75%;
+}

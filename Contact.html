@@ -237,8 +237,17 @@
     </div>
     <div class="divcointener">
       <div id="middle">
-        <form method="post" action="Send.php" >
-            
+        <form method="post" action="Send.php" class="contact">
+            Podaj swojego e-maila<input type="text" name="email" required><br>
+        <select name="title" size="1" required>
+            <option value="condition">Pytanie o warunek pobytu</option>
+            <option value="issue">Problem z rezerwacja</option>
+            <option value="other">Inna sprawa</option>
+        </select><br>
+          Podaj swoje imie<input required type="text" name="name"><br>
+          Podaj swoje nazwisko<input required type="text" name="surname"><br>
+          <textarea required name="message" rows="15" cols="55" placeholder="tresc wiadomosci"></textarea><br>
+          <button type="submit" id="bsub">Wyslij</button><button type="reset" id="bres">Resetuj</button>
         </form>
       </div>
       <div class="right">
