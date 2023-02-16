@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skorupa</title>
+    <title>Borowinka</title>
     <link rel="stylesheet" href="Styl.css">
 </head>
 <body onload="roll(); roll2();">
@@ -240,19 +240,71 @@
       </div>
       <div class="right">
         <div class="container">
-            <div class="calendar-assets">
-                <div class="day-assets">
-                    <button class="btn" onclick="prevDay()" title="Dia anterior"><i class="fas fa-chevron-left"></i>Poprzedni dzien</button>
-                    <button class="btn" onclick="resetDate()" title="Dia atual"><i class="fas fa-calendar-day"></i> Dzisiaj</button>
-                    <button class="btn" onclick="nextDay()" title="Próximo dia"><i class="fas fa-chevron-right"></i>Nastepny dzien</button>
+          <div class="calendar" id="calendar-app">
+            <div class="calendar--day-view" id="day-view">
+              <span class="day-view-exit" id="day-view-exit">&times;</span>
+              <span class="day-view-date" id="day-view-date">MAJ 29 2016</span>
+              <div class="day-view-content">
+                <div class="day-highlight">
+                  Ty <span class="day-events" id="day-events">Brak wydarzeń na dziś</span>. &nbsp; <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();" class="day-events-link" id="add-event" data-date>Dodać nowe wydarzenie?</span>
                 </div>
-            </div>
-            <div class="calendar" id="table">
-                <div class="header">
-                    <div class="month" id="month-header">
+                <div class="day-add-event" id="add-day-event-box" data-active="false">
+                  <div class="row">
+                    <div class="half">
+                      <label class="add-event-label">
+                         Nazwa wydarzenia
+                        <input type="text" class="add-event-edit add-event-edit--long" placeholder="Nowe wydarzenie" id="input-add-event-name">
+                       
+                      </label>
                     </div>
+                    <div class="qtr">
+                      <label class="add-event-label">
+                    Poczatek czasu
+                        <input type="text" class="add-event-edit" placeholder="8:15" id="input-add-event-start-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+                        <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-start-ampm" data-options="a,p,am,pm">
+                      </label>
+                    </div>
+                    <div class="qtr">
+                      <label class="add-event-label">
+                    Koniec czasu
+                        <input type="text" class="add-event-edit" placeholder="9" id="input-add-event-end-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+                        <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-end-ampm" data-options="a,p,am,pm">
+                      </label>
+                    </div>
+                    <div class="half">
+                      <a onkeyup="if(event.keyCode != 13) return; this.click();" tabindex="0" id="add-event-save" class="event-btn--save event-btn">zapisz</a>
+                      <a tabindex="0" id="add-event-cancel" class="event-btn--cancel event-btn">anuluj</a>
+                    </div>
+                  </div>
+                  
                 </div>
+                <div id="day-events-list" class="day-events-list">
+                  
+                </div>
+                
+              </div>
             </div>
+            <div class="calendar--view" id="calendar-view">
+              <div class="cview__month">
+                <span class="cview__month-last" id="calendar-month-last">Kwi</span>
+                <span class="cview__month-current" id="calendar-month">Maj</span>
+                <span class="cview__month-next" id="calendar-month-next">Cze</span>
+              </div>
+              <div class="cview__header">Sob</div>
+              <div class="cview__header">Pon</div>
+              <div class="cview__header">Wto</div>
+              <div class="cview__header">Śro</div>
+              <div class="cview__header">Czw</div>
+              <div class="cview__header">Pią</div>
+              <div class="cview__header">Nie</div>
+              <div class="calendar--view" id="dates">
+              </div>
+            </div>
+            <div class="footer">
+              <span><span id="footer-date" class="footer__link">Dzis jest 30 Maj</span></span>    
+            </div>
+          </div>
+        </div><br><br>
         </div>
         <div class="cointainer3"">
           <p id="lol"></p>
@@ -304,7 +356,7 @@
       <script src="Skrypt.js"></script>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="footer"><a href="logo.png">Pobierz logo</a></div>
+    <div class="footter"><a href="logo.png">Pobierz logo</a></div>
 </body>
 </html>
 
