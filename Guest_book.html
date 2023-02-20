@@ -237,17 +237,12 @@
     </div>
     <div class="divcointener">
       <div id="middle">
-        <form method="post" action="Send.php" class="contact">
-            Podaj swojego e-maila<input type="text" name="email" required><br>
-        <select name="title" size="1" required>
-            <option value="condition">Pytanie o warunek pobytu</option>
-            <option value="issue">Problem z rezerwacja</option>
-            <option value="other">Inna sprawa</option>
-        </select><br>
-          Podaj swoje imie<input required type="text" name="name"><br>
-          Podaj swoje nazwisko<input required type="text" name="surname"><br>
-          <textarea required name="message" rows="15" cols="55" placeholder="tresc wiadomosci"></textarea><br>
-          <button type="submit" class="bsub">Wyslij</button><button type="reset" class="bres">Resetuj</button>
+        <h1>Zamiesc swoj wpis!</h1>
+        <form method="post" action="forum.php" class="contact">
+            <textarea cols="30  " rows="5" placeholder="Treść wpisu" required name="text"></textarea><br>
+            Podaj swoj nick<input type="text" name="nick" required><br>
+            Podaj swojego maila<input type="text" name="email" required><br>
+            <button type="submit" class="bsub">Wyslij</button><button type="reset" class="bres">Resetuj</button>
         </form>
       </div>
       <div class="right">
@@ -294,7 +289,7 @@
                   
                 </div>
                 
-              
+              </div>
             </div>
             <div class="calendar--view" id="calendar-view">
               <div class="cview__month">
@@ -316,7 +311,7 @@
               <span><span id="footer-date" class="footer__link">Dzis jest 30 Maj</span></span>    
             </div>
           </div>
-        </div><br><br>
+        
         </div>
         <div class="cointainer3"">
           <p id="lol"></p>

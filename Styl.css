@@ -722,7 +722,7 @@ img{
   cursor: pointer;
 }
 
-#bres{
+.bres{
   color: #ffffff;
   background-color: red;
   margin: 40px;
@@ -730,7 +730,7 @@ img{
   height: 50px;
 }
 
-#bsub{
+.bsub{
   color: #ffffff;
   background-color: green;
   margin: 40px;
@@ -738,7 +738,7 @@ img{
   height: 50px;
 }
 
-#bsub,#bres{
+.bsub,.bres{
   border: none;
 }
 
