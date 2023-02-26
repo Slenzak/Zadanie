@@ -18,6 +18,7 @@ body {
   bottom: 50px;
   font-size: 14px;
   text-align: center;
+  clear: both;
 }
 .footer__link{
   cursor: pointer;
@@ -424,7 +425,7 @@ input.add-event-edit:-ms-input-placeholder {
 }
 
 .right{
-    float: left;
+    float: right;
     width: 33%;
     background-color: #323249;
     height: 100vh;
@@ -432,8 +433,9 @@ input.add-event-edit:-ms-input-placeholder {
 }
 .divcointener{
   width: 95.7%;
-  float: right
-  ;
+  float: right;
+
+
 }
 :root {
     font-size: 16px;
@@ -744,4 +746,16 @@ img{
 
 .contact{
   font-size: 75%;
+}
+
+.cointainer2{
+  clear: both;
+}
+
+.cointainer3{
+  clear: both;
+}
+
+.cointainer{
+  clear: both;
 }

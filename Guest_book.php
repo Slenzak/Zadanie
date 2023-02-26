@@ -238,6 +238,14 @@
     <div class="divcointener">
       <div id="middle">
         <h1>Zamiesc swoj wpis!</h1>
+        <?php 
+        $con=mysqli_connect('localhost','root','','borowinka');
+        $que1=mysqli_query($con,'Select `client`.`nick`,`post`.`content` from `post` join `client` on `post`.`client_id`=`client`.`client_id` where `post`.`accepted`=true;');
+        while($s1=mysqli_fetch_assoc($que1)){
+          echo '<div class=post>'.$s1['nick'].'<br>'.$s1['content'].'</div>';
+        };
+        mysqli_close($con);
+        ?>
         <form method="post" action="forum.php" class="contact">
             <textarea cols="30  " rows="5" placeholder="Treść wpisu" required name="text"></textarea><br>
             Podaj swoj nick<input type="text" name="nick" required><br>
@@ -359,10 +367,8 @@
             </script>
         </div>
       </div>
-    </div>
-      <script src="Skrypt.js"></script>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="Skrypt.js"></script>
+      
     <div class="footter"><a href="logo.png">Pobierz logo</a></div>
 </body>
 </html>
